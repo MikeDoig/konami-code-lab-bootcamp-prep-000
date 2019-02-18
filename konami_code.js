@@ -30,15 +30,15 @@ function init() {
   document.body.addEventListener('keydown', function(e)  {
     const key = e.key;
     if (codes[index] == key) {
-    index = key;
+    // index = key;
     index++;
     }
     if (index == codes.length) {
       alert('You did it! Secret found!');
       index =0;
     }
-    // else {
-    //   index = 0;
-    // }
+    else {
+      index = 0;
+    }
   });
 }
