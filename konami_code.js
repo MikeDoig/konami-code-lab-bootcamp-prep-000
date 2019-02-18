@@ -14,10 +14,9 @@ const codes = [
 function init() {
   let index = 0;
   
-  document.body.addEventListener('keydown', (e) >=
+  document.body.addEventListener('keydown', (e) >= {
     const key = e.key;
-    for (let i=0; i<codes.length; i++){
-    if (key == codes[0]) {
+    if (key == codes[index]) {
       i++;
       if (index == codes.length) {
         alert('You did it! Secret found!');
@@ -26,7 +25,6 @@ function init() {
     }
     else {
       index = 0;
-    }
     }
   });
 }
