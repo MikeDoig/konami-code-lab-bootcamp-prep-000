@@ -37,8 +37,8 @@ function init() {
       alert('You did it! Secret found!');
       index =0;
     }
-    else {
-      index = 0;
-    }
+    // else {
+    //   index = 0;
+    // }
   });
 }
