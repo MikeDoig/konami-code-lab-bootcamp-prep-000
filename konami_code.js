@@ -14,7 +14,7 @@ const codes = [
 function init() {
   let index = 0;
   
-  document.body
+  document.body.addEventListener('keydown', 
   function secretCode(e) {
     const key = e.key;
     for (let i=0; i<codes.length; i++){
@@ -29,5 +29,5 @@ function init() {
       index = 0;
     }
     }
-  }
+  });
 }
