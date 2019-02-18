@@ -24,14 +24,14 @@ function init() {
   });
 }
 
-// function init() {
-//   let index = 0;
+function init() {
+  let index = 0;
   
-//   document.body.addEventListener('keydown', function(e)  {
-//     const key = e.key;
-//     if (codes[index] == key) {
-//     index = key
-//     index++
+  document.body.addEventListener('keydown', function(e)  {
+    const key = e.key;
+    if (codes[index] == key) {
+    index = key
+    index++
 }
 //     if (index = (key === codes[index])) {
 //       i++;
