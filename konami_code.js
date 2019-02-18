@@ -35,7 +35,7 @@ function init() {
     }
     if (index == codes.length) {
       alert('You did it! Secret found!');
-      index =0;
+      index = 0;
     }
     // else {
     //   index = 0;
