@@ -16,7 +16,7 @@ function init() {
   function secretCode(e) {
     const key = e.key;
     for (let i=0; i<codes.length; i++){
-    if (key == codes[i]) {
+    if (key == codes[0]) {
       i++;
       if (index == codes.length) {
         alert('You did it! Secret found!');
