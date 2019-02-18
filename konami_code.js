@@ -29,7 +29,7 @@ function init() {
   
 //   document.body.addEventListener('keydown', function(e)  {
 //     const key = e.key;
-//     if (key == codes[index]) {
+//     if (codes[index] == key) {
 //     index = key
 //     index++
 }
