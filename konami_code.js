@@ -31,7 +31,7 @@ function init() {
     const key = e.key;
     if (codes[index] == key) {
     index = key;
-    ++index;
+    index++;
     }
     if (index == codes.length) {
       alert('You did it! Secret found!');
