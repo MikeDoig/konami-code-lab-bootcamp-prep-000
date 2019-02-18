@@ -16,15 +16,15 @@ function init() {
   
   document.body.addEventListener('keydown', (e) >= {
     const key = e.key;
-    if (key == codes[index]) {
+    if (index = (key === codes[index])) {
       i++;
       if (index == codes.length) {
         alert('You did it! Secret found!');
         index = 0;
       }
-    }
-    else {
-      index = 0;
+      else {
+        index = 0;
+      }
     }
   });
 }
